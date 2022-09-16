@@ -24,12 +24,12 @@ const button = document.querySelector(".popClose")
 const popup = document.querySelector("#popupWrapper")
 
 button.addEventListener("click", () => {
-    popup.style.display = "none"
+    popup.style.transform = "translate(0%, 0%) scale(0)"
 })
 
 const send = document.querySelector(".buttonPop")
 const popupSend = document.querySelector("#popupWrapper")
 
 send.addEventListener("click", () => {
-    popupSend.style.display = "none"
+    popupSend.style.transform = "translate(0%, 0%) scale(0)"
 })
